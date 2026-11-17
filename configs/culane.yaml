@@ -1,0 +1,16 @@
+# Manuscript schedule; unreported architecture defaults are in config.py.
+model:
+  mode: image
+  backbone: resnet34
+  channels: 64
+data:
+  manifest: data/culane/manifest.jsonl
+  root: data/culane
+  height: 320
+  width: 800
+train:
+  epochs: 36
+  batch_size: 32
+  learning_rate: 0.0006
+  device: cuda
+  amp: true

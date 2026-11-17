@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this software separately from the supplied SA-Net manuscript and datasets; see NOTICE.md."
+title: "SA-Net: Independent Manuscript-Driven Research Implementation"
+version: 0.1.0
+type: software
+license: MIT
+repository-code: "https://github.com/mawaisashraf3/SA-Net"
+authors:
+  - name: "SA-Net implementation contributors"

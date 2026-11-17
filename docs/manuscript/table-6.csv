@@ -1,0 +1,11 @@
+Models,Backbone,Acc (%),F1 (%) ,P (%),R (%),CD error(m)
+LATR [37],ResNet-50,88.62,80.59,86.12,75.73,0.052
+3D-LaneNet [38],ResNet18 ,75.40,44.73,61.46,35.16,0.127
+Gen-LaneNet [39],ERFNet ,75.43,45.59,63.95,35.42,0.121
+SALAD [25],ERFNet,78.78,64.07,75.90,55.42,0.098
+PersFormer [40],ResNet,86.46,74.33,80.30,69.18,0.074
+WS-3D-Lane [41],ResNet50 ,88.33,77.02,84.51,70.75,0.058
+Anchor3DLane [42],ERFNet,85.86,74.87,80.85,69.71,0.060
+Anchor3DLane++ [17],ResNet18,88.61,79.55,82.67,76.67,0.059
+MambaVision-S-1K [43]  ,MambaVision,89.73,82.39,85.09,79.85,0.055
+SA-Net (ours) ,Resnet34,94.43,85.23,87.05,83.48,0.055

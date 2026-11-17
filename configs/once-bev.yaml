@@ -1,0 +1,16 @@
+# Camera-only or genuinely calibrated multimodal BEV; no guessed extrinsics.
+model:
+  mode: bev
+  backbone: resnet34
+  channels: 64
+data:
+  manifest: data/once/manifest.jsonl
+  root: data/once
+  height: 320
+  width: 800
+train:
+  epochs: 20
+  batch_size: 32
+  learning_rate: 0.0006
+  device: cuda
+  amp: true

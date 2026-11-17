@@ -1,0 +1,58 @@
+{
+  "checkpoint_sha256": "fa3f8e0ea96719f6e922284f5dc1eb6cf0fc532eebe3d841f5bac70aaccc2218",
+  "checkpoint_epoch": 10,
+  "evaluation_manifest_sha256": "03622a0c5114cdd1d5cdfb22a0046107d3c88cde568c056d240f519e25fa0137",
+  "split": "test",
+  "samples": 8,
+  "mode": "image",
+  "model_latency_ms": {
+    "mean": 8.451089374943876,
+    "p95": 15.680522949946857
+  },
+  "pipeline_latency_ms_excluding_io": {
+    "mean": 13.803660375032223,
+    "p95": 21.46518430009791
+  },
+  "timing_note": "Batch 1, CPU/CUDA synchronized; includes first forward; excludes file loading/preprocessing",
+  "device": "cpu",
+  "reproduction_claim": false,
+  "pixel_diagnostic": {
+    "tp": 12730,
+    "fp": 42156,
+    "fn": 5871,
+    "precision": 0.23193528404328972,
+    "recall": 0.6843718079673136,
+    "f1": 0.34645583572604677,
+    "tn": 122829,
+    "iou": 0.209523182513949,
+    "accuracy": 0.738395084592507
+  },
+  "lane_iou_50": {
+    "tp": 0,
+    "fp": 37,
+    "fn": 39,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "group_bootstrap_f1_95ci": {
+    "low": null,
+    "high": null,
+    "groups": 1,
+    "reason": "At least two independent groups required"
+  },
+  "lane_iou_75": {
+    "tp": 0,
+    "fp": 37,
+    "fn": 39,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "lane_metric_note": "30px raster Hungarian matching; diagnostic, not official CULane evaluator",
+  "tusimple_protocol": {
+    "accuracy": 0.5970982142857143,
+    "fp_rate": 0.9821428571428572,
+    "fn_rate": 0.96875
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source": "User-supplied SA.docx",
+  "sha256": "12e44a1a4d8fc02ddd28270b630ba09dda7fc7fdd59ac7e3e13079612bf8ab59",
+  "title": "SA-Net: Sparse Multimodal Fusion with Adaptive Scene Perception for Robust Lane Detection",
+  "tables": 7,
+  "figures": 7,
+  "reproduced_results": false
+}

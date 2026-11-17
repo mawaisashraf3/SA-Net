@@ -1,0 +1,293 @@
+{
+  "mirror": "dotblue/TuSimple",
+  "revision": "3ab1eb751e3036a83b1e40c33a1da7e77b240c84",
+  "purpose": "limited real-data engineering experiment; not benchmark reproduction",
+  "partition": "disjoint capture dates from native training annotations",
+  "counts": {
+    "train": 24,
+    "val": 8,
+    "test": 8
+  },
+  "mirror_card_license": "apache-2.0",
+  "original_terms_verified": false,
+  "availability": {
+    "0313": {
+      "native_annotations": 2858,
+      "mirror_images_available": 200
+    },
+    "0531": {
+      "native_annotations": 358,
+      "mirror_images_available": 34
+    },
+    "0601": {
+      "native_annotations": 410,
+      "mirror_images_available": 33
+    }
+  },
+  "files": [
+    {
+      "path": "mirror-metadata.json",
+      "url": "https://huggingface.co/api/datasets/dotblue/TuSimple/revision/3ab1eb751e3036a83b1e40c33a1da7e77b240c84",
+      "bytes": 517811,
+      "sha256": "32d496173bcfa6c3e56f83aa54b81e40919932bca11a29def3887f743fd1830f"
+    },
+    {
+      "path": "label_data_0313.json",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/label_data_0313.json",
+      "bytes": 3489819,
+      "sha256": "e2303153417da4d6dc40b71877294b01770f27377ef8a7881bfc01ecac303e05"
+    },
+    {
+      "path": "label_data_0531.json",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/label_data_0531.json",
+      "bytes": 426801,
+      "sha256": "38848d8e28ebe91d1b74146893c510a251f0a42a83dce6c0e0466c5b10e2ca86"
+    },
+    {
+      "path": "label_data_0601.json",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/label_data_0601.json",
+      "bytes": 611502,
+      "sha256": "e03125d632cb4bf230335e3a61076d23412210f91d097c7514bb0e2d96e0cc52"
+    },
+    {
+      "path": "clips/0313-1/10100/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10100/20.jpg",
+      "bytes": 145119,
+      "sha256": "443fc7efe9e6d67db960105ae3c8dbe874ed3618ca023c24cf227a56500054c3"
+    },
+    {
+      "path": "clips/0313-1/1140/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/1140/20.jpg",
+      "bytes": 146528,
+      "sha256": "b51bc4aac3e915923c856cabbfa02ba30cdefdab2ef3f708b8c974d58ef28881"
+    },
+    {
+      "path": "clips/0313-1/11900/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/11900/20.jpg",
+      "bytes": 137593,
+      "sha256": "7729a3d2d4a5b1efb3a2ec594940e7feb6657a4a28111c425da9fc9c85e54cbd"
+    },
+    {
+      "path": "clips/0313-1/10120/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10120/20.jpg",
+      "bytes": 143271,
+      "sha256": "8128bd2ee05136ed022cd2093197f928f92b3bdb1c29caadcc78b9c2a8d7cac9"
+    },
+    {
+      "path": "clips/0313-1/10440/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10440/20.jpg",
+      "bytes": 154859,
+      "sha256": "3712da747d0e64a3ba96eacc654d2c9346a882e9b3eb2680bee3da0291de0589"
+    },
+    {
+      "path": "clips/0313-1/10020/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10020/20.jpg",
+      "bytes": 140593,
+      "sha256": "637ed09bcab10185cc16f168ca1e729d7996975ad47997ac52bd1e84a9a7c120"
+    },
+    {
+      "path": "clips/0313-1/11020/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/11020/20.jpg",
+      "bytes": 129130,
+      "sha256": "2b90bd24a20c6ad6b1671908d4962b92ae5503b1274018904207f1c12ad4d075"
+    },
+    {
+      "path": "clips/0313-1/10280/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10280/20.jpg",
+      "bytes": 146018,
+      "sha256": "630a32a6b0b9a1db39b08bea88208891c8146ae839573d6925a56070c809709a"
+    },
+    {
+      "path": "clips/0313-1/10820/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10820/20.jpg",
+      "bytes": 131790,
+      "sha256": "07cfc84e553c187b884fbff4264fa8a3aa2f4afa4358c941b8c0f3233bb915e3"
+    },
+    {
+      "path": "clips/0313-1/10880/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10880/20.jpg",
+      "bytes": 132016,
+      "sha256": "bfcc30499402a4b833df759eccd5aa2aa519111c048a18b48254c8fb93e2a81b"
+    },
+    {
+      "path": "clips/0313-1/11880/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/11880/20.jpg",
+      "bytes": 139616,
+      "sha256": "c601a1172460eba42e0742d3db4dad466b80e651ab62dfd409d92e53edcffcac"
+    },
+    {
+      "path": "clips/0313-1/10580/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-1/10580/20.jpg",
+      "bytes": 132838,
+      "sha256": "ae0e0409dba197020b84d2e1d3e01d5ba859ed06b75360b4182fd58241feeee9"
+    },
+    {
+      "path": "clips/0313-2/1135/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1135/20.jpg",
+      "bytes": 167663,
+      "sha256": "0e3420c32238fd17cd9ca4ec73a944cba9aaab8eef1dc0343be472dc80ce73e7"
+    },
+    {
+      "path": "clips/0313-2/10260/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/10260/20.jpg",
+      "bytes": 166365,
+      "sha256": "884f479f015152d4279b5b95daf4afc4a026fb61ebb30d8bbb7ce452a63e8910"
+    },
+    {
+      "path": "clips/0313-2/11940/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/11940/20.jpg",
+      "bytes": 171267,
+      "sha256": "c242e616742addf4657449e040627417c6076052e83afd2bd45ea4b4e06de038"
+    },
+    {
+      "path": "clips/0313-2/10200/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/10200/20.jpg",
+      "bytes": 168383,
+      "sha256": "ad3a00c70133c293d12338ecfe4abfe777a77aae479d6f610e0ee863d42ec2fb"
+    },
+    {
+      "path": "clips/0313-2/1245/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1245/20.jpg",
+      "bytes": 136186,
+      "sha256": "95f1c30a89f65a1e4b6fc8bbe40f512c1cc99ce5cf9eef2506900d3a561e882d"
+    },
+    {
+      "path": "clips/0313-2/1225/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1225/20.jpg",
+      "bytes": 149691,
+      "sha256": "4269bf74b4d16c1c0087d7281ed6a81606e7f7eb619c49d23271649dc7e41746"
+    },
+    {
+      "path": "clips/0313-2/1050/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1050/20.jpg",
+      "bytes": 170522,
+      "sha256": "746237e5648cf6c90b0a7e3bffc258b69857490fe88e6a6e9111bb50925a971d"
+    },
+    {
+      "path": "clips/0313-2/12300/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/12300/20.jpg",
+      "bytes": 171619,
+      "sha256": "bc6c8d2a67c5dc0ccb8a27a521397b08497ba01a40672b97235a36167479d41a"
+    },
+    {
+      "path": "clips/0313-2/1230/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1230/20.jpg",
+      "bytes": 148846,
+      "sha256": "1107dbee52823f1b6089963f133df967a9b95d081f171b456dcec58d77803400"
+    },
+    {
+      "path": "clips/0313-2/1015/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1015/20.jpg",
+      "bytes": 164567,
+      "sha256": "14815aa2230b2b106ed7c0b0ee8be7e2490e334c40c2ee786fdd09f2283e266d"
+    },
+    {
+      "path": "clips/0313-2/1220/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1220/20.jpg",
+      "bytes": 145179,
+      "sha256": "599396c4e7f8e6670950f21aefa29fe9cae7d588213a1a1ea9fa033729e6f1bb"
+    },
+    {
+      "path": "clips/0313-2/1080/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0313-2/1080/20.jpg",
+      "bytes": 177103,
+      "sha256": "0736c894217cf02f2e4e3f6d2b1e118da55afb44674980dff86af81b744c2ab9"
+    },
+    {
+      "path": "clips/0531/1492626287507231547/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492626287507231547/20.jpg",
+      "bytes": 229268,
+      "sha256": "21af08818b03a2d0a4740bcaffce6486900b526bc038e8a7ea2b5ab35a51a117"
+    },
+    {
+      "path": "clips/0531/1492626722277359997/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492626722277359997/20.jpg",
+      "bytes": 181615,
+      "sha256": "8404cb4d2feadde66c53f4ada330b4d76181476823d357ba87e85a996fc83df5"
+    },
+    {
+      "path": "clips/0531/1492626979221196958/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492626979221196958/20.jpg",
+      "bytes": 161601,
+      "sha256": "f29ed87c923600689586aa2e64b37bed5b4ce1ddf4df0c4f124376fde72c8024"
+    },
+    {
+      "path": "clips/0531/1492627348130955659/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492627348130955659/20.jpg",
+      "bytes": 201126,
+      "sha256": "217203c337692eaf504948f5072860d311d35f94221855dc4f6bc59c4e647ad7"
+    },
+    {
+      "path": "clips/0531/1492627490412865107/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492627490412865107/20.jpg",
+      "bytes": 229557,
+      "sha256": "4aa20adf4702e3489710c8ab7a008b6227d3d85928b0ba2742a2b834c3f98ad6"
+    },
+    {
+      "path": "clips/0531/1492627604309184695/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492627604309184695/20.jpg",
+      "bytes": 208030,
+      "sha256": "ed1bb437c9f829e049a58a2dcc242bf14feb3c9f8d89ca19044a800d0628a252"
+    },
+    {
+      "path": "clips/0531/1492626274615008344/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492626274615008344/20.jpg",
+      "bytes": 230877,
+      "sha256": "ed0a1e3e7d533aa4f9f703c824138d6932578aeda57f22fce1a2ed31089e9248"
+    },
+    {
+      "path": "clips/0531/1492627475054062025/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0531/1492627475054062025/20.jpg",
+      "bytes": 235598,
+      "sha256": "8fd8f5b1d61dcfa8812a709edffd591c06b7400e901417c1cca30e72993417aa"
+    },
+    {
+      "path": "clips/0601/1494452385593783358/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452385593783358/20.jpg",
+      "bytes": 146494,
+      "sha256": "72fb82ce5bf792ee45cc0b58906ca2c9faa0f7415ba46bc8d89cff93ac84b09f"
+    },
+    {
+      "path": "clips/0601/1494452415578787519/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452415578787519/20.jpg",
+      "bytes": 146749,
+      "sha256": "84555023e166bb6ccdd6b3eeb6ccf875d6ceaed079169680d040295fbd4723e0"
+    },
+    {
+      "path": "clips/0601/1494452439568910656/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452439568910656/20.jpg",
+      "bytes": 153880,
+      "sha256": "02e20c1f046545ce480c6f37ed790ebb713074711db15025f71e99925ceb2dfc"
+    },
+    {
+      "path": "clips/0601/1494452469555111733/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452469555111733/20.jpg",
+      "bytes": 151949,
+      "sha256": "d8422afa8b2d88447db595b973111413266629cedd72fff31c4018973ebbf8dc"
+    },
+    {
+      "path": "clips/0601/1494452493544568151/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452493544568151/20.jpg",
+      "bytes": 178649,
+      "sha256": "54c3e3e4e0eef147bccc214e2e91b8427ec01fcbd3404a333e56a2eb1d2d5a88"
+    },
+    {
+      "path": "clips/0601/1494452523531433490/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452523531433490/20.jpg",
+      "bytes": 187800,
+      "sha256": "706bf065e3053f925056e25604ba3b194bbfbceb54ad43fde834510054919f9d"
+    },
+    {
+      "path": "clips/0601/1494452547522417856/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452547522417856/20.jpg",
+      "bytes": 219206,
+      "sha256": "9124ed59e8b17a5179a694b0f8345fb5aa02a562f4f2ce1b9f10fbb68b1670a2"
+    },
+    {
+      "path": "clips/0601/1494452579506899721/20.jpg",
+      "url": "https://huggingface.co/datasets/dotblue/TuSimple/resolve/3ab1eb751e3036a83b1e40c33a1da7e77b240c84/clips/0601/1494452579506899721/20.jpg",
+      "bytes": 196828,
+      "sha256": "4f5ff83e2770e61f61f3b3b474a46e0414be3c8db975afa20401ecda0e55e9c3"
+    }
+  ]
+}

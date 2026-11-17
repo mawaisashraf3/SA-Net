@@ -1,0 +1,30 @@
+# Short validation-only engineering ablation; not manuscript reproduction.
+model:
+  mode: image
+  backbone: compact
+  channels: 24
+  embedding_dim: 4
+  sfm: false
+data:
+  manifest: data/tusimple-small/manifest.jsonl
+  root: data/tusimple-small
+  height: 96
+  width: 240
+  line_width: 14
+  flip_probability: 0.5
+  brightness: 0.2
+  contrast: 0.2
+train:
+  epochs: 4
+  batch_size: 4
+  learning_rate: 0.0006
+  seed: 17
+  threads: 2
+  device: cpu
+  warmup_epochs: 0
+decode:
+  confidence: 0.5
+  embedding_radius: 0.7
+  min_points: 8
+  row_step: 2
+  max_lanes: 8

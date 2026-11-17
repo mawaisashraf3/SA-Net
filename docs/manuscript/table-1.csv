@@ -1,0 +1,6 @@
+Dataset,Resolution,Training,Validation,Testing,Lanes,Road Type,Data Source,Weather
+CULane,1640x590 Px.,88.9K,9.7K,34.7K,2-4,"Urban, Highway",Real World,Multi-weather
+TuSimple,1280x720 Px.,6.4K,0.4K,2.8K,2-4,Highway,Real World,Multi-weather
+BDD100K,1280x720 Px.,70K,10K,20K,2-5,"Urban, Highway",Real World,Multi-weather
+FoggyLane,1280x720 Px.,3.3k,0.35k,2.8k,2-4,"Urban, Highway",Real World,Multi-weather
+ONCE-3DLanes,1920x720 Px.,200K,3K,8k,2-6,"Urban, Highway",Real World,Multi-weather

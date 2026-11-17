@@ -1,0 +1,20 @@
+{
+  "records": 40,
+  "splits": {
+    "train": 24,
+    "val": 8,
+    "test": 8
+  },
+  "groups": 3,
+  "lane_count_histogram": {
+    "4": 28,
+    "3": 5,
+    "5": 7
+  },
+  "sensors": {
+    "camera_only": 40
+  },
+  "image_hashes_checked": true,
+  "manifest_sha256": "03622a0c5114cdd1d5cdfb22a0046107d3c88cde568c056d240f519e25fa0137",
+  "dataset_sha256": "b048975dbb9abfcdea5420c91626c2e9200af7fb2bbc1301bc0360d4fd2f0fcb"
+}

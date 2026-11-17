@@ -1,0 +1,6 @@
+{
+  "identical_best_model_tensors": true,
+  "original_best_epoch_zero_based": 10,
+  "replay_best_epoch_zero_based": 10,
+  "note": "Replay of the same schedule and seed, not an independent performance experiment."
+}

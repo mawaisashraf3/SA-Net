@@ -1,17 +1,18 @@
 {
-  "checkpoint_sha256": "fa3f8e0ea96719f6e922284f5dc1eb6cf0fc532eebe3d841f5bac70aaccc2218",
+  "checkpoint_sha256": "effa7123ce868c24284c6ba0273e7e7815fe41f28102ad48b3fc96bef30f0918",
   "checkpoint_epoch": 10,
   "evaluation_manifest_sha256": "03622a0c5114cdd1d5cdfb22a0046107d3c88cde568c056d240f519e25fa0137",
+  "evaluation_dataset_sha256": "b048975dbb9abfcdea5420c91626c2e9200af7fb2bbc1301bc0360d4fd2f0fcb",
   "split": "test",
   "samples": 8,
   "mode": "image",
   "model_latency_ms": {
-    "mean": 8.451089374943876,
-    "p95": 15.680522949946857
+    "mean": 10.113606000004438,
+    "p95": 16.136399349989
   },
   "pipeline_latency_ms_excluding_io": {
-    "mean": 13.803660375032223,
-    "p95": 21.46518430009791
+    "mean": 17.032630999977982,
+    "p95": 23.782230099970995
   },
   "timing_note": "Batch 1, CPU/CUDA synchronized; includes first forward; excludes file loading/preprocessing",
   "device": "cpu",

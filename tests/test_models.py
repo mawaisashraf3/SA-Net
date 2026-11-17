@@ -84,3 +84,15 @@ def test_resnet34_fpn_no_download():
         output = net(torch.zeros(1, 3, 64, 128))
     assert output.shape == (1, 8, 16, 32)
     assert torch.isfinite(output).all()
+
+
+def test_bev_empty_camera_and_lidar_support(config, records):
+    config.model.mode = "bev"
+    sample = LaneDataset(config, "train")[0]
+    batch = collate([sample])
+    batch["points"] = [torch.empty(0, 4)]
+    batch["transforms"][:, :, 0, 3] = 1000.0
+    result = SANet(config.model)(batch)
+    assert result["sparsity"]["union_cells"] == 0
+    assert torch.isfinite(result["confidence"]).all()
+    result["confidence"].sum().backward()

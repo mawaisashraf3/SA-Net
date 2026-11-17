@@ -1,0 +1,256 @@
+{
+  "purpose": "Arithmetic check only; source observations/protocols unavailable",
+  "caveat": "Macro-averaged P/R/F1 need not obey the harmonic relation. Flags warrant clarification, not replacement of reported observations.",
+  "rows": [
+    {
+      "table": 4,
+      "row": "MRDALane",
+      "precision_percent": 90.1,
+      "recall_percent": 92.8,
+      "reported_f1_percent": 91.4,
+      "harmonic_f1_percent": 91.4300710770913,
+      "difference_percentage_points": -0.030071077091292864,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "RESA-50 [11]",
+      "precision_percent": 93.4,
+      "recall_percent": 91.2,
+      "reported_f1_percent": 92.3,
+      "harmonic_f1_percent": 92.28689057421451,
+      "difference_percentage_points": 0.013109425785486906,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "ENet [32]",
+      "precision_percent": 95.1,
+      "recall_percent": 88.8,
+      "reported_f1_percent": 91.8,
+      "harmonic_f1_percent": 91.842088091354,
+      "difference_percentage_points": -0.042088091354003154,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "ENet-SAD [33]",
+      "precision_percent": 94.1,
+      "recall_percent": 95.5,
+      "reported_f1_percent": 94.8,
+      "harmonic_f1_percent": 94.79483122362869,
+      "difference_percentage_points": 0.005168776371306194,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "SCNN [4]",
+      "precision_percent": 79.2,
+      "recall_percent": 92.5,
+      "reported_f1_percent": 85.3,
+      "harmonic_f1_percent": 85.33488642981946,
+      "difference_percentage_points": -0.03488642981946555,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "DRN-D",
+      "precision_percent": 87.5,
+      "recall_percent": 90.3,
+      "reported_f1_percent": 88.8,
+      "harmonic_f1_percent": 88.87795275590551,
+      "difference_percentage_points": -0.07795275590551398,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "PSPNet [34]",
+      "precision_percent": 78.9,
+      "recall_percent": 76.6,
+      "reported_f1_percent": 77.8,
+      "harmonic_f1_percent": 77.73299035369774,
+      "difference_percentage_points": 0.06700964630225315,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "DeepLabv3 [34]",
+      "precision_percent": 78.2,
+      "recall_percent": 75.5,
+      "reported_f1_percent": 76.8,
+      "harmonic_f1_percent": 76.8262849707222,
+      "difference_percentage_points": -0.026284970722201706,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 4,
+      "row": "GatedCNN+Spatial [34]",
+      "precision_percent": 92.3,
+      "recall_percent": 92.9,
+      "reported_f1_percent": 92.2,
+      "harmonic_f1_percent": 92.59902807775379,
+      "difference_percentage_points": -0.39902807775378335,
+      "review_if_same_micro_counts": true
+    },
+    {
+      "table": 4,
+      "row": "SA-Net (ours) ",
+      "precision_percent": 92.9,
+      "recall_percent": 93.8,
+      "reported_f1_percent": 93.3,
+      "harmonic_f1_percent": 93.34783074450992,
+      "difference_percentage_points": -0.047830744509923306,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "LATR [37]",
+      "precision_percent": 86.12,
+      "recall_percent": 75.73,
+      "reported_f1_percent": 80.59,
+      "harmonic_f1_percent": 80.59150571516837,
+      "difference_percentage_points": -0.0015057151683635084,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "3D-LaneNet [38]",
+      "precision_percent": 61.46,
+      "recall_percent": 35.16,
+      "reported_f1_percent": 44.73,
+      "harmonic_f1_percent": 44.730565100393285,
+      "difference_percentage_points": -0.0005651003932882759,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "Gen-LaneNet [39]",
+      "precision_percent": 63.95,
+      "recall_percent": 35.42,
+      "reported_f1_percent": 45.59,
+      "harmonic_f1_percent": 45.589393177015204,
+      "difference_percentage_points": 0.0006068229847997486,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "SALAD [25]",
+      "precision_percent": 75.9,
+      "recall_percent": 55.42,
+      "reported_f1_percent": 64.07,
+      "harmonic_f1_percent": 64.06302162656108,
+      "difference_percentage_points": 0.0069783734389119445,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "PersFormer [40]",
+      "precision_percent": 80.3,
+      "recall_percent": 69.18,
+      "reported_f1_percent": 74.33,
+      "harmonic_f1_percent": 74.32638480064222,
+      "difference_percentage_points": 0.003615199357781762,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "WS-3D-Lane [41]",
+      "precision_percent": 84.51,
+      "recall_percent": 70.75,
+      "reported_f1_percent": 77.02,
+      "harmonic_f1_percent": 77.02025634419684,
+      "difference_percentage_points": -0.0002563441968419511,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "Anchor3DLane [42]",
+      "precision_percent": 80.85,
+      "recall_percent": 69.71,
+      "reported_f1_percent": 74.87,
+      "harmonic_f1_percent": 74.8678732731137,
+      "difference_percentage_points": 0.0021267268863027766,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "Anchor3DLane++ [17]",
+      "precision_percent": 82.67,
+      "recall_percent": 76.67,
+      "reported_f1_percent": 79.55,
+      "harmonic_f1_percent": 79.55703401531316,
+      "difference_percentage_points": -0.007034015313166719,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "MambaVision-S-1K [43]  ",
+      "precision_percent": 85.09,
+      "recall_percent": 79.85,
+      "reported_f1_percent": 82.39,
+      "harmonic_f1_percent": 82.38676488420032,
+      "difference_percentage_points": 0.0032351157996828306,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 6,
+      "row": "SA-Net (ours) ",
+      "precision_percent": 87.05,
+      "recall_percent": 83.48,
+      "reported_f1_percent": 85.23,
+      "harmonic_f1_percent": 85.22763150178854,
+      "difference_percentage_points": 0.0023684982114673403,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 7,
+      "row": "\u2713",
+      "precision_percent": 85.0,
+      "recall_percent": 76.4,
+      "reported_f1_percent": 80.47,
+      "harmonic_f1_percent": 80.47087980173482,
+      "difference_percentage_points": -0.0008798017348254916,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 7,
+      "row": "\u2713",
+      "precision_percent": 85.47,
+      "recall_percent": 76.4,
+      "reported_f1_percent": 80.68,
+      "harmonic_f1_percent": 80.68089207388645,
+      "difference_percentage_points": -0.0008920738864475197,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 7,
+      "row": "\u2713",
+      "precision_percent": 89.66,
+      "recall_percent": 73.65,
+      "reported_f1_percent": 80.87,
+      "harmonic_f1_percent": 80.87023452329925,
+      "difference_percentage_points": -0.00023452329924111837,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 7,
+      "row": "\u2713",
+      "precision_percent": 85.0,
+      "recall_percent": 77.67,
+      "reported_f1_percent": 81.17,
+      "harmonic_f1_percent": 81.16985307678121,
+      "difference_percentage_points": 0.00014692321879294923,
+      "review_if_same_micro_counts": false
+    },
+    {
+      "table": 7,
+      "row": "\u2713",
+      "precision_percent": 90.0,
+      "recall_percent": 74.94,
+      "reported_f1_percent": 81.78,
+      "harmonic_f1_percent": 81.7824663514005,
+      "difference_percentage_points": -0.0024663514004998888,
+      "review_if_same_micro_counts": false
+    }
+  ]
+}

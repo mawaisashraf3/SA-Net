@@ -1,0 +1,26 @@
+{
+  "trials": [
+    {
+      "trial": 0,
+      "learning_rate": 0.0003,
+      "weight_decay": 0.01,
+      "seed": 17,
+      "best_validation_loss": 4.41972017288208
+    },
+    {
+      "trial": 1,
+      "learning_rate": 0.0006,
+      "weight_decay": 0.01,
+      "seed": 17,
+      "best_validation_loss": 3.8655675649642944
+    }
+  ],
+  "selected": {
+    "trial": 1,
+    "learning_rate": 0.0006,
+    "weight_decay": 0.01,
+    "seed": 17,
+    "best_validation_loss": 3.8655675649642944
+  },
+  "selection": "validation loss only; test never evaluated"
+}

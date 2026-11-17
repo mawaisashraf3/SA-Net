@@ -1,0 +1,77 @@
+{
+  "model": {
+    "mode": "image",
+    "backbone": "compact",
+    "pretrained": false,
+    "channels": 24,
+    "embedding_dim": 4,
+    "depth_min": 2.0,
+    "depth_max": 80.0,
+    "depth_bins": 40,
+    "top_k": 3,
+    "lane_threshold": 0.3,
+    "min_pixels": 16,
+    "max_pixels": 4096,
+    "sfm": false,
+    "ampm": false,
+    "era": false,
+    "dilations": [
+      1,
+      2,
+      3
+    ],
+    "base_kernels": 4,
+    "grid": {
+      "x_min": 0.0,
+      "x_max": 80.0,
+      "y_min": -12.0,
+      "y_max": 12.0,
+      "resolution": 0.5,
+      "z_min": -4.0,
+      "z_max": 6.0,
+      "voxel_height": 0.5
+    }
+  },
+  "data": {
+    "manifest": "data/tusimple-small/manifest.jsonl",
+    "root": "data/tusimple-small",
+    "height": 96,
+    "width": 240,
+    "crop_top": 0,
+    "line_width": 14,
+    "brightness": 0.2,
+    "contrast": 0.2,
+    "flip_probability": 0.5,
+    "workers": 0
+  },
+  "train": {
+    "epochs": 4,
+    "batch_size": 4,
+    "learning_rate": 0.0006,
+    "weight_decay": 0.01,
+    "warmup_epochs": 0,
+    "seed": 17,
+    "device": "cpu",
+    "amp": false,
+    "grad_clip": 5.0,
+    "balanced_confidence": true,
+    "max_positive_weight": 20.0,
+    "confidence": 2.0,
+    "embedding": 0.5,
+    "offset": 4.0,
+    "height": 1.0,
+    "segmentation": 0.5,
+    "depth": 0.5,
+    "variance_margin": 0.5,
+    "distance_margin": 1.5,
+    "threads": 2
+  },
+  "decode": {
+    "confidence": 0.5,
+    "embedding_radius": 0.7,
+    "min_points": 8,
+    "row_step": 2,
+    "max_lanes": 8,
+    "max_candidates": 12000
+  }
+}

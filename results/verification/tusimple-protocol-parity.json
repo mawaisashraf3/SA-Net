@@ -1,0 +1,8 @@
+{
+  "reference": "https://github.com/TuSimple/tusimple-benchmark/blob/d1f5ef1b6fff78c92c61864abcc07a9714900360/evaluate/lane.py",
+  "reference_sha256": "330b78724f621adbe8efdccbf4c920fe38a5f99074cab342e61103ccf479fcd9",
+  "analytic_cases": 108,
+  "max_absolute_difference": 1.1102230246251565e-16,
+  "purpose": "Protocol parity; not dataset performance",
+  "comparison": "Official sklearn LinearRegression evaluator vs independent NumPy implementation. Lane counts 1..6; prediction counts 0..8; runtime 10ms/201ms; noisy sampled coordinates and invalid negative positions."
+}

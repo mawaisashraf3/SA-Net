@@ -1,0 +1,92 @@
+2026-11-17 22:48:31,397 INFO epoch=0 train=5.24088 val=4.10383 lr=0.0006000
+2026-11-17 22:48:32,096 INFO epoch=1 train=3.96209 val=3.92474 lr=0.0005121
+2026-11-17 22:48:32,830 INFO epoch=2 train=3.59999 val=3.86125 lr=0.0003000
+2026-11-17 22:48:33,565 INFO epoch=3 train=3.47298 val=3.84473 lr=0.0000879
+2026-11-17 22:48:34,370 INFO epoch=0 train=5.11835 val=4.48165 lr=0.0006000
+2026-11-17 22:48:35,138 INFO epoch=1 train=4.08563 val=4.18175 lr=0.0005121
+2026-11-17 22:48:35,861 INFO epoch=2 train=3.74759 val=4.13426 lr=0.0003000
+2026-11-17 22:48:36,516 INFO epoch=3 train=3.55382 val=4.06710 lr=0.0000879
+2026-11-17 22:48:37,304 INFO epoch=0 train=5.51524 val=4.66735 lr=0.0006000
+2026-11-17 22:48:38,102 INFO epoch=1 train=4.22816 val=4.30550 lr=0.0005121
+2026-11-17 22:48:38,913 INFO epoch=2 train=3.76092 val=4.38050 lr=0.0003000
+2026-11-17 22:48:39,725 INFO epoch=3 train=3.61013 val=4.31015 lr=0.0000879
+2026-11-17 22:48:40,606 INFO epoch=0 train=5.14543 val=4.62618 lr=0.0006000
+2026-11-17 22:48:41,399 INFO epoch=1 train=3.89050 val=3.90096 lr=0.0005121
+2026-11-17 22:48:42,151 INFO epoch=2 train=3.62518 val=3.77374 lr=0.0003000
+2026-11-17 22:48:43,013 INFO epoch=3 train=3.47509 val=3.71447 lr=0.0000879
+2026-11-17 22:48:43,915 INFO epoch=0 train=5.26821 val=4.53235 lr=0.0006000
+2026-11-17 22:48:44,713 INFO epoch=1 train=3.97664 val=4.02841 lr=0.0005121
+2026-11-17 22:48:45,540 INFO epoch=2 train=3.60998 val=3.65496 lr=0.0003000
+2026-11-17 22:48:46,362 INFO epoch=3 train=3.31283 val=3.50995 lr=0.0000879
+2026-11-17 22:48:47,192 INFO epoch=0 train=5.50742 val=4.43765 lr=0.0006000
+2026-11-17 22:48:48,053 INFO epoch=1 train=4.11232 val=4.27700 lr=0.0005121
+2026-11-17 22:48:48,886 INFO epoch=2 train=3.66464 val=4.22678 lr=0.0003000
+2026-11-17 22:48:49,634 INFO epoch=3 train=3.55360 val=4.10358 lr=0.0000879
+2026-11-17 22:48:50,455 INFO epoch=0 train=5.59158 val=4.81813 lr=0.0006000
+2026-11-17 22:48:51,240 INFO epoch=1 train=4.29426 val=4.17269 lr=0.0005121
+2026-11-17 22:48:52,068 INFO epoch=2 train=3.82353 val=3.94775 lr=0.0003000
+2026-11-17 22:48:52,749 INFO epoch=3 train=3.59706 val=3.86557 lr=0.0000879
+2026-11-17 22:48:53,693 INFO epoch=0 train=4.99842 val=4.51844 lr=0.0006000
+2026-11-17 22:48:54,427 INFO epoch=1 train=4.26686 val=4.37968 lr=0.0005121
+2026-11-17 22:48:55,258 INFO epoch=2 train=4.00643 val=4.24262 lr=0.0003000
+2026-11-17 22:48:56,113 INFO epoch=3 train=3.79740 val=4.18688 lr=0.0000879
+2026-11-17 22:48:56,933 INFO epoch=0 train=5.88603 val=4.91855 lr=0.0006000
+2026-11-17 22:48:57,692 INFO epoch=1 train=4.58495 val=4.48150 lr=0.0005121
+2026-11-17 22:48:58,467 INFO epoch=2 train=4.08154 val=4.30362 lr=0.0003000
+2026-11-17 22:48:59,275 INFO epoch=3 train=3.76746 val=4.41988 lr=0.0000879
+[
+  {
+    "variant": "backbone_head",
+    "seed": 17,
+    "run": "runs/verified-ablation/backbone_head-seed-17",
+    "best_validation_loss": 3.844732880592346
+  },
+  {
+    "variant": "backbone_head",
+    "seed": 29,
+    "run": "runs/verified-ablation/backbone_head-seed-29",
+    "best_validation_loss": 4.067100882530212
+  },
+  {
+    "variant": "backbone_head",
+    "seed": 41,
+    "run": "runs/verified-ablation/backbone_head-seed-41",
+    "best_validation_loss": 4.30549693107605
+  },
+  {
+    "variant": "plus_ampm",
+    "seed": 17,
+    "run": "runs/verified-ablation/plus_ampm-seed-17",
+    "best_validation_loss": 3.7144652605056763
+  },
+  {
+    "variant": "plus_ampm",
+    "seed": 29,
+    "run": "runs/verified-ablation/plus_ampm-seed-29",
+    "best_validation_loss": 3.509951949119568
+  },
+  {
+    "variant": "plus_ampm",
+    "seed": 41,
+    "run": "runs/verified-ablation/plus_ampm-seed-41",
+    "best_validation_loss": 4.103578567504883
+  },
+  {
+    "variant": "plus_ampm_era",
+    "seed": 17,
+    "run": "runs/verified-ablation/plus_ampm_era-seed-17",
+    "best_validation_loss": 3.8655675649642944
+  },
+  {
+    "variant": "plus_ampm_era",
+    "seed": 29,
+    "run": "runs/verified-ablation/plus_ampm_era-seed-29",
+    "best_validation_loss": 4.186877489089966
+  },
+  {
+    "variant": "plus_ampm_era",
+    "seed": 41,
+    "run": "runs/verified-ablation/plus_ampm_era-seed-41",
+    "best_validation_loss": 4.303623676300049
+  }
+]

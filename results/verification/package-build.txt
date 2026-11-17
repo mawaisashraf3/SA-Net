@@ -1,0 +1,17 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Processing /workspace/work/SA-Net
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: sanet-research
+  Building wheel for sanet-research (pyproject.toml): started
+  Building wheel for sanet-research (pyproject.toml): finished with status 'done'
+  Created wheel for sanet-research: filename=sanet_research-0.1.0-py3-none-any.whl size=51274 sha256=817b58da3cd6e593c4cdd4d817e3408130ac4e786530d2e1d769dd364fb2a8a6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-rh_rfrdv/wheels/ef/cf/15/8c14beddcb5b74a0de7d19546e646fe6f2acb0e93d078b5ddf
+Successfully built sanet-research
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: python -m pip install --upgrade pip

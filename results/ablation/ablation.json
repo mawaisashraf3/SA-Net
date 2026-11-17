@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "variant": "backbone_head",
+      "seed": 17,
+      "run": "runs/verified-ablation/backbone_head-seed-17",
+      "best_validation_loss": 3.844732880592346
+    },
+    {
+      "variant": "backbone_head",
+      "seed": 29,
+      "run": "runs/verified-ablation/backbone_head-seed-29",
+      "best_validation_loss": 4.067100882530212
+    },
+    {
+      "variant": "backbone_head",
+      "seed": 41,
+      "run": "runs/verified-ablation/backbone_head-seed-41",
+      "best_validation_loss": 4.30549693107605
+    },
+    {
+      "variant": "plus_ampm",
+      "seed": 17,
+      "run": "runs/verified-ablation/plus_ampm-seed-17",
+      "best_validation_loss": 3.7144652605056763
+    },
+    {
+      "variant": "plus_ampm",
+      "seed": 29,
+      "run": "runs/verified-ablation/plus_ampm-seed-29",
+      "best_validation_loss": 3.509951949119568
+    },
+    {
+      "variant": "plus_ampm",
+      "seed": 41,
+      "run": "runs/verified-ablation/plus_ampm-seed-41",
+      "best_validation_loss": 4.103578567504883
+    },
+    {
+      "variant": "plus_ampm_era",
+      "seed": 17,
+      "run": "runs/verified-ablation/plus_ampm_era-seed-17",
+      "best_validation_loss": 3.8655675649642944
+    },
+    {
+      "variant": "plus_ampm_era",
+      "seed": 29,
+      "run": "runs/verified-ablation/plus_ampm_era-seed-29",
+      "best_validation_loss": 4.186877489089966
+    },
+    {
+      "variant": "plus_ampm_era",
+      "seed": 41,
+      "run": "runs/verified-ablation/plus_ampm_era-seed-41",
+      "best_validation_loss": 4.303623676300049
+    }
+  ],
+  "reproduction_claim": false,
+  "note": "Independent backbone baseline, not DLNet; image mode has no multimodal SFM"
+}

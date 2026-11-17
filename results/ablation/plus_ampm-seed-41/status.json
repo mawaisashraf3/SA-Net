@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "completed_epochs": 4,
+  "selected_by": "minimum validation total loss",
+  "best_validation_loss": 4.103578567504883
+}

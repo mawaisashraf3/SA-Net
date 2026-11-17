@@ -1,0 +1,5 @@
+{
+  "exported_frames": 1,
+  "format": "culane",
+  "output": "runs/verified-export"
+}

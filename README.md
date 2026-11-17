@@ -6,7 +6,7 @@
 
 An independent PyTorch research implementation developed from the supplied SA-Net manuscript, with calibrated geometry, explicit scientific corrections, and executable training and evaluation pipelines.
 
-[Methodology](docs/methodology.md) · [Research audit](docs/research-audit.md) · [Datasets](docs/datasets.md) · [Reproduce](docs/reproducibility.md) · [Measured results](results/README.md) · [Original manuscript findings](docs/manuscript/tables.md)
+[Methodology](docs/methodology.md) · [Research audit](docs/research-audit.md) · [Datasets](docs/datasets.md) · [Reproduce](docs/reproducibility.md) · [Measured results](results/README.md) · [Completion report](docs/completion-report.md) · [Original manuscript findings](docs/manuscript/tables.md)
 
 </div>
 

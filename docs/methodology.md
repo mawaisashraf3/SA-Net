@@ -6,7 +6,7 @@ Read the [critical manuscript audit](research-audit.md) for equation/figure-leve
 
 An RGB tensor has shape B×V×3×H×W, ImageNet mean/std normalization. ResNet-34 produces hierarchical features; lateral 1×1 projections and top-down bilinear FPN aggregation return stride-4 features. The compact alternative uses three convolutional stages and exists for CPU verification, with no pretrained weights. `pretrained: true` explicitly requests torchvision's ImageNet weights and a network download; it is false by default.
 
-Camera points use right/down/forward axes and camera-z depth d. Ego points use forward/left/up axes. For a processed pixel q=(u,v,1),
+Inputs are assumed to be rectified; lens distortion and sensor timestamp alignment must be handled during dataset preparation. Camera points use right/down/forward axes and camera-z depth d. Ego points use forward/left/up axes. For a processed pixel q=(u,v,1),
 
 \[
 X_e=R_{e\leftarrow c}(dK^{-1}q)+t_{e\leftarrow c}.

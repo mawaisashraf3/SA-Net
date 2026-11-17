@@ -182,6 +182,8 @@ All original comparisons and baseline rows appear in the [seven attributed manus
 
 ![Actual loss curves](results/cpu-small/learning-curves.png)
 
+A [downloadable engineering checkpoint](artifacts/MODEL_CARD.md) is included with a model card and checksum for direct inference inspection.
+
 [Results, full metrics and evidence](results/README.md) include raw histories, configs, environment, predictions, dataset provenance, protocol parity checks and verification logs. The eight-image holdout has one date group, so no independent-group confidence interval is reported. This limited test is too small for research performance claims.
 
 ## Quality assurance, limitations and next research steps

@@ -6,6 +6,7 @@ The previously empty repository was inspected, then populated through ordinary n
 
 * [Repository and complete README](https://github.com/mawaisashraf3/SA-Net)
 * [Source modules](https://github.com/mawaisashraf3/SA-Net/tree/main/src/sanet)
+* [Measured engineering checkpoint and model card](../artifacts/MODEL_CARD.md)
 * [Tests](https://github.com/mawaisashraf3/SA-Net/tree/main/tests)
 * [Research audit](research-audit.md), [mathematical methodology](methodology.md), [architecture and module responsibilities](architecture.md)
 * [Dataset engineering](datasets.md), [installation/execution/recovery](reproducibility.md)

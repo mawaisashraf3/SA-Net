@@ -13,3 +13,5 @@ runs/
 *.pth
 *.sqlite*
 .env
+# Explicitly distributed small measured engineering checkpoint.
+!artifacts/cpu-small-best.pt

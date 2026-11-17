@@ -4,6 +4,9 @@ CITATION.cff
 LICENSE
 NOTICE.md
 README.md
+artifacts/MODEL_CARD.md
+artifacts/SHA256SUMS
+artifacts/cpu-small-best.pt
 configs/bdd100k.yaml
 configs/cpu-ablation.yaml
 configs/cpu-small.yaml

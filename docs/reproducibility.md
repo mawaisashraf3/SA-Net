@@ -19,7 +19,7 @@ ruff format --check src tests
 
 For an exact direct-dependency replay, use `pip install -c constraints-tested.txt -e '.[dev]'` after selecting the matching CPU wheel index. The constraints record the environment actually available here, not a promise that older Python/OS combinations have those exact wheels. CUDA users must select mutually compatible torch/torchvision/CUDA distributions and record their own environment.
 
-No weights, data or third-party repositories are downloaded by importing the package or running its tests. `acquire-small` and `model.pretrained: true` are explicit network operations. Dataset assets and weight files are excluded from Git. An installed wheel includes Python modules; clone the repository for configs, docs and results.
+No weights, data or third-party repositories are downloaded by importing the package or running its tests. `acquire-small` and `model.pretrained: true` are explicit network operations. Dataset assets and run checkpoints are excluded from Git. The explicitly distributed [compact engineering checkpoint](../artifacts/MODEL_CARD.md) is a small, measured exception; it has zero recorded lane-instance F1 and is intended for pipeline inspection. An installed wheel includes Python modules; clone the repository for configs, docs and results.
 
 ## Replay the limited real-data experiment
 
